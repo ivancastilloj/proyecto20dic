@@ -1,0 +1,21 @@
+
+p::first-letter{
+	font-size: 30px
+
+	}
+div#multicolum1 {
+moz-column-count: 3;
+moz-column-gap: 20px;
+webkit-column-count: 3;
+webkit-column-gap: 20px;
+column-count: 3;
+column-gap: 20px;
+moz-column-rule: 2px solid red;
+webkit-column-rule: 2px solid red;
+}
+div#visual {
+	width: 400px;
+	height: 300px;
+	overflow: auto;
+	
+}

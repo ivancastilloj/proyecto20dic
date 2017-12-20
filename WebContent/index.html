@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>Forms 2.0</h2>
+<form action="destino.php" method="post">
+<label for="nombre"> Nombre</label>
+<input type="text" id="nombre" name="nombre" autofocus="autofocus" placeholder="Nombre" maxlength="10">
+<input type="password" id="pass" name="pass" placeholder="Contraseña" maxlength="10">
+<label for="pass"></label>
+<label for="edad"> Edad</label>
+<label for="edad"></label>
+<input type="number" id="edad" name="edad" placeholder="Edad" maxlength="3" min="18" max="65">
+<label for="fecha">Fecha de entrada</label>
+<input type="date" id="fecha" name="fecha" placeholder="Fecha">
+<label for="color">Color</label>
+<input type="color" id="color" name="color" placeholder="Color">
+<label for="correo">Correo</label>
+<input type="email" id="correo" name="correo" placeholder="Correo">
+<label for="ciudad">Ciudad</label>
+<select multiple="multiple"><option>Madrid<option>Barcelona<option>Bilbao
+<option>Sevilla
+</select>
+<br>
+<label for="contrato">Acepto las condiciones de contrato</label>
+<input type="checkbox" checked="checked" id="contrato" name="contrato">
+<label for="archivo">Archivo</label>
+<input type="file"  id="archivo" name="archivo" multiple="multiple">
+
+<input type="submit" value="Enviar">
+</form>
+</body>
+</html>

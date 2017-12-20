@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+
+
+#div1{
+position: initial;
+ width: 40%;
+float: left;
+  margin: 5px;
+height: 30%
+
+}
+#div2{
+position: static;
+ width: 40%;
+margin: auto;
+float: right;
+height: 30%
+
+
+}
+#imagen1{
+float:left;
+
+}
+#texto1{
+font-size: 100px;
+float: right;
+}
+</style>
+<link rel="icon" type="image/png" href="IMG/icon.png" />
+<link rel="stylesheet" href="CSS/font-awesome.min.css">
+<meta charset="UTF-8">
+<title>Tu red de viajes</title>
+</head>
+<body background="IMG/back.jpg">
+<header>
+<img alt="Imagen principal" src="IMG/foto2.jpg" align="top" id="imagen1">
+<h2 id="texto1">Viaja a Cancún</h2>
+</header>
+<section>
+<div id="div1">
+<form action="destino.php" method="post">
+<h3>Formulario de reserva</h3>
+<div>
+<div>
+<i class="fa fa-envelope-o" aria-hidden="true">
+<label for="correo">Correo</label>
+</i>
+</div>
+<div >
+<input type="email" id="correo" name="correo" placeholder="Correo electronico"  >
+</div>
+</div>
+<div>
+<label for="personas">Personas</label>
+</div>
+<div>
+<input id="ChildCount" class="child-count-slider" type="range" min="1" max="10" value="10" >
+</div>
+<div>
+<label for="fecha">Fecha de entrada</label>
+</div>
+<div>
+<input type="date" id="fechaentrada" name="fechaentrada" placeholder="Fecha de entrada">
+</div>
+<div>
+<div>
+<label for="fecha">Fecha de salida</label>
+</div>
+<div>
+<input type="date" id="fechasalida" name="fechasalida" placeholder="Fecha de salida">
+</div>
+</div>
+<div>
+<div>
+<label for="contrato">Acepto las condiciones</label>
+</div>
+<div>
+<input type="checkbox" id="contrato" name="contrato">
+</div>
+</div>
+<div>
+<div>
+<input type="submit" value="Reservar">
+</div>
+</div>
+
+</form>
+</div>
+<div id="div2">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/xg0N6hc_CxA" frameborder="0"  allow="encrypted-media" allowfullscreen></iframe>
+<img alt="Imagen Cancún" src="IMG/foto1.jpg" align="left" width=100% height="50%">
+</div>
+<div id="div3">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d238194.00038497787!2d-86.98931939848156!3d21.121285335820236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4c2b05aef653db%3A0xce32b73c625fcd8a!2zQ2FuY8O6biwgUS5SLiwgTcOpeGljbw!5e0!3m2!1ses!2ses!4v1513772273874" width=100% height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+</div>
+</section>
+</body>
+</html>
